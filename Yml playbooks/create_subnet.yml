@@ -1,0 +1,6 @@
+- name: Add subnet
+  azure_rm_subnet:
+    resource_group: 
+    name: 
+    address_prefix: "" #in CIDR format
+    virtual_network: # Vnet name

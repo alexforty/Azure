@@ -1,0 +1,5 @@
+- name: Create virtual network
+  azure_rm_virtualnetwork:
+    resource_group: 
+    name: 
+    address_prefixes: "" #in CIDR format

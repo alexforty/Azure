@@ -1,0 +1,5 @@
+- name: Create public IP address
+  azure_rm_publicipaddress:
+    resource_group: 
+    allocation_method: #type Static if you want a static PIP address 
+    name: 
